@@ -13,7 +13,7 @@ except FileNotFoundError:
 
 __version__ = "0.0.0"
 
-REPO_NAME = "Deep_learrning_project2"
+REPO_NAME = "machine_learning1203"
 AUTHOR_USER_NAME = "banti9021"
 SRC_REPO = "deep_learning"
 AUTHOR_EMAIL = "nbanti943@gmail.com"

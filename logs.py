@@ -1,5 +1,6 @@
 from flask import Flask
-from src.logger import logging
+from src.machine_learning1.logger import logging
+
 app=Flask(__name__,)
 @app.route('/',methods=['GET','POST'])
 def index():
