@@ -15,7 +15,7 @@ __version__ = "0.0.0"
 
 REPO_NAME = "machine_learning1203"
 AUTHOR_USER_NAME = "banti9021"
-SRC_REPO = "deep_learning"
+SRC_REPO = "machine_learning1203"
 AUTHOR_EMAIL = "nbanti943@gmail.com"
 
 setuptools.setup(
