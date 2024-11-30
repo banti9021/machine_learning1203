@@ -1,13 +1,13 @@
 from flask import Flask
-from src.machine_learning1.logger import logging
+from src.logger import logging
 
-app=Flask(__name__,)
-@app.route('/',methods=['GET','POST'])
+app = Flask(__name__)
+
+@app.route('/', methods = ['GET', 'POST'])
 def index():
-    logging.info("wee")
+    logging.info("We are testing our logging file")
 
-    return "we"
+    return "Welcome to Engineering Wala Bhiya"
 
-
-if __name__=="__main__":
-    app.run(debug=True)
+if __name__ == "__main__":
+    app.run(debug = True) # 5000

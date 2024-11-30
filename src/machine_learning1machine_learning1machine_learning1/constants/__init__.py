@@ -17,3 +17,16 @@ RAW_DATA_DIR_KEY="data2.csv"
 TRAIN_DATA_DIR_KEY="train.csv"
 TEST_DATA_DIR_KEY="test.csv"
 
+
+
+
+#data Transformation related variable
+DATA_TRANSFORMARTION_ARTIFACT="data_transformation"
+DATA_PREPROCCED_DIR="proccer"
+DATA_TRANSFORMARTION_PROCESSING_OBJ="processor.pkl"
+DATA_TRANSFORMARTION_DIR="transformation"
+TRANSFORM_TRAIN_DIR_KEY="train.csv"
+TRANSFORM_TEST_DIR_KEY="test.csv"
+
+#artifact/data_transformation
+
